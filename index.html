@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3 Iftee</title>
+    <!-- Tailwind CSS and Daisy UI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind Config -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/a738c46928.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .manrope {
+        font-family: "Manrope", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 26px;
+        font-size: 1rem;
+        * {
+          padding: 0;
+          margin: 0;
+        }
+      }
+    </style>
+  </head>
+  <body class="manrope w-5/6 mx-auto">
+    <!-- navigation bar -->
+    <nav class="flex justify-between items-center py-8">
+      <div class="flex space-x-1 items-center">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+          class="bg-lime-300 p-2 w-8 h-8 rounded-3xl -rotate-45"
+        >
+          <path
+            d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+          />
+        </svg>
+        <p class="font-extrabold text-3xl">Rinterio</p>
+      </div>
+      <div>
+        <ul class="flex space-x-6">
+          <li class="text-gray-500">
+            <span class="text-black font-bold">Home</span>
+          </li>
+          <li class="text-gray-500">Services</li>
+          <li class="text-gray-500">Portfolio</li>
+          <li class="text-gray-500">Blogs</li>
+          <li class="text-gray-500">Contact Us</li>
+        </ul>
+      </div>
+      <div class="flex items-center space-x-3">
+        <i
+          class="fa-solid fa-magnifying-glass text-xl bg-[#eeebee] p-3 px-4 rounded-3xl"
+        ></i>
+        <i
+          class="fa-solid fa-cart-shopping text-xl bg-[#eeebee] p-3 px-4 rounded-3xl"
+        ></i>
+        <button class="btn bg-lime-400 px-5 text-xl font-extrabold rounded-3xl">
+          Book Consult
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+            class="bg-white p-2 w-8 h-8 rounded-3xl -rotate-45"
+          >
+            <path
+              d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+    <!-- first section -->
+    <div class="flex items-center align-middle flex-col space-y-10 mx-12">
+      <img src="./assets/banner.png" alt="" />
+      <h1 class="text-center text-6xl font-extrabold">
+        A barn house of this design has a striking appearance
+      </h1>
+      <p class="text-center mx-16">
+        The barn house captivates with its blend of rustic charm and modern
+        sophistication, featuring weathered wood, sleek metal accents, and large
+        windows that flood the space with natural light.
+      </p>
+      <button class="btn bg-lime-200 px-5 text-xl font-bold rounded-3xl">
+        View Details
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+          class="bg-lime-400 p-2 w-8 h-8 rounded-3xl -rotate-45"
+        >
+          <path
+            d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+          />
+        </svg>
+      </button>
+    </div>
+  </body>
+</html>
